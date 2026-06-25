@@ -14,6 +14,7 @@ O projeto está organizado em guias específicos de configuração e fluxos oper
 *   **[`fluxo-02.md`](fluxo-02.md)**: Continuação dos diagramas de processos, gerenciamento de acessos e permissões.
 *   **[`pve-nia-01.md`](pve-nia-01.md)**: Guia de provisionamento do nó Proxmox VE e provisionamento do hardware.
 *   **[`pve-nia-rede-01.md`](pve-nia-rede-01.md)**: Documentação da topologia de rede, criação de pontes (bridges) e VLANs.
+*   **[`mqtt-estudo.md`](mqtt-estudo.md)**: Roteiro de estudos para implementação de sistemas de software e painéis web com MQTT.
 
 
 ---
