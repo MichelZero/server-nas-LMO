@@ -41,3 +41,9 @@ Este roteiro contém **4 fases progressivas** projetadas para guiar seu aprendiz
 *   **Criptografia WSS:** Configure certificados digitais (como Let's Encrypt) no seu EMQX para que toda a comunicação web trafegue obrigatoriamente sob o protocolo seguro `wss://` (Porta 8084).
 *   **Autenticação e Autorização Avançada:** Integre o EMQX ao banco de dados do seu sistema web via JWT (JSON Web Tokens) ou Webhooks de autenticação. Isso garante que um usuário logado no painel só consiga visualizar ou comandar os tópicos aos quais ele realmente tem direito.
 *   **Persistência de Estado (Mensagens Retidas):** Domine o uso da flag `retain: true` nas publicações. Isso resolve o problema do "painel em branco": sempre que um usuário abrir o site, o gráfico exibirá instantaneamente o último estado salvo, sem precisar esperar o sensor enviar um novo dado.
+
+## 📈 Roadmap (Fase Atual)
+*   [ ] Integração WebSockets (MQTT sobre 8083/8084).
+*   [ ] Dashboards em Node-RED.
+*   [ ] `mqtt.js` em navegadores.
+*   [ ] TLS/WSS.
